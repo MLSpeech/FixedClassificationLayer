@@ -11,7 +11,7 @@ from resnet import resnet18
 parser = argparse.ArgumentParser(description='PyTorch Fixed representations.')
 parser.add_argument('--runname', type=str, default='default_name', help='the name of the run. ckpt will be saved under that name')
 parser.add_argument('--save_dir', default='.', type=str, help='saving dir. model will be saved under that dir')
-parser.add_argument('--data_dir', default='.', type=str, help='dir to CIFAR100 dataset. If the dataset does not exist, it will be downloaded to the given dir')
+parser.add_argument('--data_dir', default='.', type=str, help='dir to STL dataset. If the dataset does not exist, it will be downloaded to the given dir')
 parser.add_argument('--cosine', default=False, action='store_true', help='When True optimize the cosine-similarity. Else optimize the dot-product')
 parser.add_argument('--fixed', default=False, action='store_true', help='When True class vectors are fixed')
 parser.add_argument('--s', default=1, type=int, help='scaling factor')
