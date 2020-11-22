@@ -33,22 +33,22 @@ $ cd FixedClassificationLayer
 
 * For training NON-FIXED dot-product run the following command:
 ```
-python run.py --data_dir <PATH TO DATA> --save_dir <PATH TO SAVE MODELS> --runname <NAME OF RUN>
+python run_stl.py --data_dir <PATH TO DATA> --save_dir <PATH TO SAVE MODELS> --runname <NAME OF RUN>
 ```
 
 * For training FIXED dot-product run the following command:
 ```
-python run.py --data_dir <PATH TO DATA> --save_dir <PATH TO SAVE MODELS> --runname <NAME OF RUN> --fixed
+python run_stl.py --data_dir <PATH TO DATA> --save_dir <PATH TO SAVE MODELS> --runname <NAME OF RUN> --fixed
 ```
 
 * For training NON-FIXED cosine-similarity run the following command:
 ```
-python run.py --data_dir <PATH TO DATA> --save_dir <PATH TO SAVE MODELS> --runname <NAME OF RUN> --cosine --s <S VALUE>
+python run_stl.py --data_dir <PATH TO DATA> --save_dir <PATH TO SAVE MODELS> --runname <NAME OF RUN> --cosine --s <S VALUE>
 ```
 
 * For training FIXED cosine-similarity run the following command:
 ```
-python run.py --data_dir <PATH TO DATA> --save_dir <PATH TO SAVE MODELS> --runname <NAME OF RUN> --cosine --s <S VALUE> --fixed
+python run_stl.py --data_dir <PATH TO DATA> --save_dir <PATH TO SAVE MODELS> --runname <NAME OF RUN> --cosine --s <S VALUE> --fixed
 ```
 
 
