@@ -11,6 +11,6 @@ This repository provides a PyTorch implementation of the paper [Redesigning the 
 ![Model scheme](https://github.com/MLSpeech/FixedClassificationLayer/blob/main/images/fixed_layer.png)
 
 
-<br/><br/>
+<br/>
 
-The repository allows training fixed and non-fixed dot-product models, and also fixed and non-fixed cosine-similarity maximization models on STL dataset (more datasets will be supported soon). The repository sets ResNet-18 as the visual encoder component.
+The repository allows training fixed and non-fixed dot-product models, and also fixed and non-fixed cosine-similarity maximization models on STL dataset (more datasets will be supported soon). ResNet-18 is set as the visual encoder component.
